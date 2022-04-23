@@ -54,6 +54,10 @@ const module =  {
     { //Lo anterior no se modifica, esta es la configuración de sass
       test: /\.scss$/,
       loaders: ['style', 'css', 'sass']
+    },
+    {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
     }
   ]
 };
