@@ -10,6 +10,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "core-js": "^3.6.5",
+    "node-sass": "^7.0.1",
     "sass": "^1.50.1",
     "sass-loader": "^10",
     "vue": "^2.6.11",
@@ -20,7 +21,6 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "css-loader": "^6.7.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
