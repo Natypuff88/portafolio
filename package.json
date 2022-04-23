@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
-    "@vue/cli-service": "~4.5.0",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.6.5",
     "node-sass": "^7.0.1",
     "sass": "^1.50.1",
     "sass-loader": "^10",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.3"
+    "vue-router": "^3.5.3",
+    "@vue/cli-service": "~4.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -45,5 +45,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "engines": {
+    "node": "14.17.5"
+  }
 }
