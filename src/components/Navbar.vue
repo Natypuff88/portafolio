@@ -17,7 +17,7 @@
 
         <b-nav-item class="texto-menu" >
             <router-link :to="{name: 'Sobremi'}"
-            v-bind:class="{ 'currentUrlHover': getCurrentUrl === 'sobremi'}"
+            v-bind:class="{ 'currentUrlHover': getCurrentUrl() === 'sobremi'}"
           >
             Sobre mi
             </router-link>
@@ -25,7 +25,7 @@
 
         <b-nav-item class="texto-menu">
              <router-link :to="{name: 'Portafolio'}"
-             v-bind:class="{ 'currentUrlHover': getCurrentUrl === 'portafolio'}"
+             v-bind:class="{ 'currentUrlHover': getCurrentUrl() === 'portafolio'}"
             >
              Portafolio
             </router-link>
@@ -34,7 +34,7 @@
 
         <b-nav-item class="texto-menu">
            <router-link :to="{name: 'Contacto'}"
-           v-bind:class="{ 'currentUrlHover': getCurrentUrl === 'contacto'}"
+           v-bind:class="{ 'currentUrlHover': getCurrentUrl() === 'contacto'}"
            >
            Contacto
             </router-link>
@@ -48,7 +48,6 @@
   </b-navbar>
 
   <router-view></router-view>
-{{currentUrl}}
 </div>
   
 
@@ -57,10 +56,11 @@
 <script>
 
 export default {
-  computed: {
+  methods: {
     getCurrentUrl() {
       return this.$route.name.toLowerCase();
     }
+
   },
   
 }
