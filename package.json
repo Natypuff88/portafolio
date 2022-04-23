@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "bootstrap-vue": "^2.22.0",
     "core-js": "^3.6.5",
     "node-sass": "^7.0.1",
     "sass": "^1.50.1",
