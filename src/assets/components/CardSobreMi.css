@@ -1,0 +1,36 @@
+/*Colors */
+/* Brand colors */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap");
+.card_sobre_mi {
+  width: 20rem;
+  height: 9.375rem;
+  background: #FAFAFA;
+  box-shadow: 0px 5px 20px #F5AAB6;
+  border-radius: 30px;
+  padding: 0.625rem;
+}
+
+.skills_title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #9F6098;
+  padding-top: 0.625rem;
+}
+
+.skills_content {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  text-align: left;
+  padding-left: 0.625rem;
+  color: #1B0907;
+}/*# sourceMappingURL=CardSobreMi.css.map */

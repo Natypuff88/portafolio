@@ -1,0 +1,56 @@
+//FUENTES TIPOGRAFÍA SITIO
+
+//RALEWAY
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//font-family: 'Raleway', sans-serif;
+
+
+//QUICKSAND
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+//font-family: 'Quicksand', sans-serif;
+
+
+@import "./css/variables.scss";
+@import "./css/tipografia.scss";
+@import "./css/mixins.scss";
+
+
+
+
+////TEXTOS//////////////////
+.titulo1{
+    @include texto_titulo1;
+} 
+
+.subtitulo1{
+    @include sub_titulo1;
+    margin: 20px;
+} 
+
+.texto-ordinario{
+    @include texto_ordinario;
+} 
+
+.fotonaty{
+    box-shadow: 0px 5px 20px #F5AAB6;
+    width: auto;
+    height: 300px;
+    } 
+
+
+
+.phone {
+    @media(min-width: 0px) and (max-width:991px) 
+    {
+        float: left;
+        margin-bottom: -200px;
+    };
+  }
+
+  .photo_natysvg
+  {
+    @media(min-width: 0px) and (max-width:991px) 
+    {
+       position: relative!important;
+    };
+  }

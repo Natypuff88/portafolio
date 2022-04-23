@@ -1,0 +1,174 @@
+//FUENTES TIPOGRAFÍA SITIO
+
+//RALEWAY
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//font-family: 'Raleway', sans-serif;
+
+
+//QUICKSAND
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+//font-family: 'Quicksand', sans-serif;
+
+//TEXTOS
+@mixin texto_boton{
+    font: {
+    color: $color-tr1;
+    size: 24px;
+    weight: 200;
+    family: 'Raleway', sans-serif;
+    }
+    }
+    
+    
+    @mixin texto_menu{
+    @include clean-links;
+    @include zero-clean;
+    font: {
+    size: 20px;
+    weight: 200;
+    family: 'Raleway', sans-serif;
+    padding:0;}
+    }
+
+    @mixin texto_menu{
+        @include clean-links;
+        @include zero-clean;
+        font: {
+        size: 20px;
+        weight: 200;
+        family: 'Raleway', sans-serif;
+        padding:0;}
+        }
+    
+    //Raleway BOLD 28
+    @mixin texto_titulo1{
+        font: {
+        color: $black;
+        size: 28px;
+        weight: 700;
+        family: 'Raleway', sans-serif;
+        }
+        }
+    
+    
+    //Raleway REGULAR 36
+    @mixin texto_titulo2{
+        font: {
+        color: $black;
+        size: 36px;
+        weight: 400;
+        family: 'Raleway', sans-serif;
+        }
+        }
+    
+    //Raleway MEDIUM 24
+    @mixin sub_titulo1{
+    font: {
+    color: $black;
+    size: 24px;
+    weight: 500;
+    family: 'Raleway', sans-serif;
+    }
+    }
+    
+    //Raleway BOLD 12
+    @mixin sub_titulo2{
+        font: {
+        color: $black;
+        size: 18px;
+        weight: 700;
+        family: 'Raleway', sans-serif;
+        }
+        }
+    
+    //Raleway THIN 18
+    @mixin texto_ordinario{
+    font: {
+    color: $black;
+    size: 18px;
+    weight: 100;
+    family: 'Raleway', sans-serif;
+    }
+    }
+    
+    //Raleway REGULAR 14
+    
+    @mixin texto_habilidades1{
+    font: {
+    color: $black;
+    size: 14px;
+    weight: 400;
+    family: 'Raleway', sans-serif;
+    }
+    }
+    
+    //Raleway REGULAR 24
+    @mixin texto_ux_ilu{
+        font: {
+        color: $black;
+        size: 24px;
+        weight: 400;
+        family: 'Raleway', sans-serif;
+        }
+        }
+    
+    //Raleway THIN 12
+    @mixin texto_habilidades2{
+    font: {
+    color: $black;
+    size: 12px;
+    weight: 100;
+    family: 'Raleway', sans-serif;
+    }
+    }
+    
+
+    //BOX BOTONES PORTAFOLIO
+    @mixin box-section{
+    width: 184px;
+    height: 184px;
+    background: #FAFAFA;
+    box-shadow: 0px 5px 20px #F5AAB6;
+    border-radius: 30px;
+    }
+    
+    //BOX HERRAMIENTAS UX ILUS
+    @mixin box-section-ux{
+        @include flex-col-center;
+        width: 184px;
+        height: 184px;
+        background: #FAFAFA;
+        box-shadow: 0px 5px 20px #F5AAB6;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        }
+    
+    
+    //BOX HERAMIENTAS DE LAS SECCIONES
+    @mixin box_ficha_herramietas{
+    width: 300px;
+    height: 100px;
+    background: #FAFAFA;
+    box-shadow: 0px 5px 20px #F5AAB6;
+    @media(min-width: 0px) and (max-width:767px)   // celular
+    {width: 250px;
+    height: 100px; }
+    
+    @media(min-width: 767px) and (max-width:1024px)   // tablet
+    {width: 300px;
+    height: 100px;}
+    }
+    
+    
+    //Raleway LIGTH 24 - TEXTO FICHA HERRAMIENTAS
+    @mixin texto_ficha_herramientas{
+        font: {
+        color: $color-pr3;
+        size: 24px;
+        weight: 300;
+        family: 'Raleway', sans-serif;
+        }
+    }
+    
+
+    

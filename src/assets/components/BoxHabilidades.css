@@ -1,0 +1,191 @@
+/*Colors */
+/* Brand colors */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap");
+.box-h {
+  background-color: #FAFAFA;
+}
+
+.box-habilidades {
+  padding-top: 20px;
+  width: 1079px;
+  height: 200px;
+  padding-bottom: 100px;
+  background: #FAFAFA;
+  box-shadow: 0px 5px 20px #F5AAB6;
+}
+@media (min-width: 800px) and (max-width: 1280px) {
+  .box-habilidades {
+    width: 950px;
+    height: 180px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidades {
+    width: 700px;
+    height: 150px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .box-habilidades {
+    width: 230px !important;
+    height: 1100px;
+    margin-bottom: 100px;
+  }
+}
+.box-habilidades ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.box-habilidades li {
+  color: inherit;
+  text-decoration: none;
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: 0 !important;
+  -webkit-margin-start: 0 !important;
+  -webkit-margin-end: 0 !important;
+  -webkit-padding-before: 0 !important;
+  -webkit-padding-after: 0 !important;
+  -webkit-padding-start: 0 !important;
+  -webkit-padding-end: 0 !important;
+  margin-left: 50px;
+}
+.box-habilidades li a:hover, .box-habilidades li a:focus, .box-habilidades li a:visited {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidades li {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidades ul {
+    margin-right: 60px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .box-habilidades ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 80px;
+  }
+}
+
+.box-habilidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 150px;
+  width: 150px;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidad {
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .box-habilidad {
+    height: 180px;
+    width: 180px;
+    margin-left: 20px;
+  }
+}
+
+.cajitasvghab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .cajitasvghab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidad img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidad img .texto-habilidades1 {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .box-habilidad img .texto-habilidades1 .texto-habilidades2 {
+    font-size: 8px;
+    width: 30px;
+    height: 100%;
+  }
+}
+
+.texto-habilidades1 {
+  font-color: #1B0907;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  height: 20px;
+  width: 80px;
+}
+
+p.texto-habilidades2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.texto-habilidades2 {
+  font-color: #1B0907;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  height: 20px;
+  width: 80px;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 75%;
+  max-width: 0%;
+}/*# sourceMappingURL=BoxHabilidades.css.map */

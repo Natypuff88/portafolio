@@ -1,0 +1,79 @@
+@import "../css/variables.scss";
+@import "../css/mixins.scss";
+@import "../css/tipografia.scss";
+
+a{
+    text-decoration: none!important;
+    @include clean-links;
+}
+
+a:link, a:visited, a:hover{
+	text-decoration: none !important;
+	list-style-type: none !important;
+}
+
+.bg-nav{
+    background-color: $white;
+    padding: 0!important;
+    margin: 0!important;
+}
+  
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    @media(min-width: 0px) and (max-width:767px)   // celular
+    {
+        justify-content: center;
+    }
+}
+
+.nav-right{
+    @include flex-row-end;
+    @media(min-width: 0px) and (max-width:991px) 
+        {
+            justify-content: center;
+        }
+}
+
+
+nav ul li {
+    @include flex-row-end;
+}
+
+nav li {
+@media(min-width: 0px) and (max-width:991px)  
+    {
+        margin:10px;
+    }
+}
+
+.circulo-menu-mainmenu {
+    @include flex-row-center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 30px;
+    background-color: $color-pr3;
+}
+
+
+.texto-menu{
+@include texto_menu;
+} 
+
+
+.estrellalogo{
+height: 62px;
+width: 60px;
+margin-left: 20px;
+transition: height width .5s;
+}
+
+.estrellalogo:hover
+{filter: opacity(.5);}
+
+
+
