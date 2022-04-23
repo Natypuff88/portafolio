@@ -57,7 +57,7 @@ const module =  {
     },
     {
       test: /\.css$/,
-      use: ['style-loader', 'css-loader']
+      use: ['vue-style-loader', 'css-loader']
     }
   ]
 };
