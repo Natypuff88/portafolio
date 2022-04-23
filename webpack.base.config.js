@@ -56,8 +56,8 @@ const module =  {
       loaders: ['style', 'css', 'sass']
     },
     {
-      test: /\.css$/,
-      use: ['vue-style-loader', 'css-loader']
+      test: /\.css/,
+      use: ['vue-style-loader', 'css-loader', 'sass-loader'] // BOTH are needed!
     }
   ]
 };
