@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postinstall": "npm run build",
+    "create-env": "printenv > .env",
     "start": "node server.js"
   },
   "dependencies": {
@@ -55,6 +55,6 @@
     "not dead"
   ],
   "engines": {
-    "node": "14.17.5"
+    "node": "14.X.X"
   }
 }

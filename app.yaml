@@ -1,0 +1,8 @@
+# app.yaml
+runtime: nodejs14
+env: standard
+# If you have one application, please use "default" for service
+service: default
+# VPC Network if you have one
+#network:
+#  name: default
