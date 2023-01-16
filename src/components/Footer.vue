@@ -15,7 +15,7 @@
 
                 </div>
 
-                <a class="text-center mt-5" href="https://natypuff88.com/wp/" target="_blank"> 
+                <a class="text-center mt-2" href="https://natypuff88.com/wp/" target="_blank"> 
 
                 <i class="fa fa-heart corazon"> </i>
                 
@@ -47,7 +47,7 @@ export default {
 .box-footer{
     display: flex;
     width: 100vw;
-    height: 31rem;
+    height: 15rem;
     background-color: #caf1e6;
 }
 

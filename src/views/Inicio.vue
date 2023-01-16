@@ -7,20 +7,22 @@
 
             <h1 class="titulo1"> ¡Hola Soy Natalia!</h1>
 
-            <h3 class="skills"> Soy UX Designer con experiencia en la creación de productos digitales y mi super poder es crear plataformas amigables para todos 
+            <h3 class="skills"> Soy UX Designer y mi super poder es crear plataformas amigables para todos 
             </h3>
 
             <i class="fa fa-heart corazon-dos"></i>
 
         </b-col>
-      </b-row>  
 
-      <b-row class="d-flex justify-content-end"> 
+        <b-col class="d-flex justify-content-end"> 
         <img class="naty-coneja" src="../assets/img/fotoinstanatyPNG.png">
 
-      </b-row>
-    </b-container>
+        </b-col>
+      </b-row>  
 
+    </b-container>
+    
+    <ProyectoUno/>
     <Footer/>
 
   </div>
@@ -28,6 +30,7 @@
 
 <script>
 
+import ProyectoUno from '../components/ProyectoUno.vue'
 import Footer from '../components/Footer.vue'
 
   export default {
@@ -39,6 +42,7 @@ import Footer from '../components/Footer.vue'
       }
     },
     components: {
+    ProyectoUno,
     Footer,
   },
     methods: {
@@ -59,7 +63,7 @@ import Footer from '../components/Footer.vue'
     margin-left: 6.25rem;
     padding: 1.875rem;
     width: 50%;
-    height: auto;
+    height: 50%;
     background: #FAFAFA;
     box-shadow: 0px 5px 20px #F5AAB6;
     border-radius: 30px;
@@ -109,6 +113,7 @@ import Footer from '../components/Footer.vue'
 .naty-coneja{
   height: 400px;
   width: auto;
+  top: -50px;
 }
 
 .corazon-dos{
