@@ -65,7 +65,6 @@
 export default {
 
 }
-import '../assets/components/BoxHabilidades.scss';
 </script>
 
 <style>
