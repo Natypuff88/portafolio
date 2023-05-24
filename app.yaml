@@ -6,3 +6,5 @@ service: default
 # VPC Network if you have one
 #network:
 #  name: default
+handlers:
+# Serve all static files with urls ending with a file extension

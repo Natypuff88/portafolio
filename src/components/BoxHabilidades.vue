@@ -65,7 +65,9 @@
 export default {
 
 }
+import '../assets/components/BoxHabilidades.scss';
 </script>
+
 
 <style>
 
@@ -80,4 +82,6 @@ a:link, a:visited, a:active a:hover{
 	text-decoration: none !important;
 	list-style-type: none !important;
 }
+
+
 </style>

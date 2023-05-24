@@ -32,13 +32,13 @@
         </b-nav-item>
 
 
-        <b-nav-item class="texto-menu">
+        <!--<b-nav-item class="texto-menu">
            <router-link :to="{name: 'Contacto'}"
            v-bind:class="{ 'currentUrlHover': getCurrentUrl() === 'contacto'}"
            >
            Contacto
             </router-link>
-        </b-nav-item>
+        </b-nav-item>-->
        
 
           

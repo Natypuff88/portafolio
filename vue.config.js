@@ -3,8 +3,9 @@ const path = require('path');
 module.exports = {
   css: {
     loaderOptions: {
-      sass: {
-      }
+      scss: {
+        additionalData: `@import "~@/assets/css/variables.scss";`
+      },
     }
   },
 

@@ -77,5 +77,13 @@ html{
   height: 100vh;
 }
 
+.card_sobre_mi {
+    width: 20rem;
+    height: 9.375rem;
+    background: #fafafa;
+    box-shadow: 0 5px 20px #f5aab6;
+    border-radius: 30px;
+    padding: 0.625rem;
+}
 
 </style>

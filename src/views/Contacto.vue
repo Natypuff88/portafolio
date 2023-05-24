@@ -53,7 +53,7 @@
 </template>
 
 <script>
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 export default {
   name: 'Contacto',
@@ -70,13 +70,13 @@ export default {
     sendEmail() {
       if(this.validaFormulario()) {
         console.log("enviado")
-        /*
+        
          emailjs.sendForm('service_cq6nsdj', 'template_jyr32ao', this.$refs.form, 'GDeLdMY3jY3i-EeRa')
         .then((result) => {
             console.log('SUCCESS!', result.text);
         }, (error) => {
             console.log('FAILED...', error.text);
-        });*/
+        });
         this.sent = true;
       } 
     },

@@ -182,10 +182,4 @@ p.texto-habilidades2 {
   font-family: "Raleway", sans-serif;
   height: 20px;
   width: 80px;
-}
-
-.row > * {
-  flex-shrink: 0;
-  width: 75%;
-  max-width: 0%;
 }/*# sourceMappingURL=BoxHabilidades.css.map */
