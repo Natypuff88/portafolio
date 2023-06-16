@@ -14,7 +14,7 @@
 
                       <b-img 
                           rounded="circle" alt="Circle image"
-                          :src="require('../assets/img/foto_naty.jpg')"
+                          :src="require('../assets/img/imgnataliamd.jpg')"
 
                           class="fotonaty"
                           >

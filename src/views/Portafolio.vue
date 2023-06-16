@@ -15,12 +15,12 @@
 
                   <div class="box-titulo-modal">
 
-                    <div class="div-inline">
+                    <div class="div-inline  div-img-txt">
                         <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                         <p class="link-port">Investigación</p>
                     </div>
                     
-                    <div>
+                    <div class="box_btn">
 
                         <b-button class="b-button" v-b-modal.modal-research >Ver más</b-button>
 
@@ -29,7 +29,6 @@
                             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhE8SHBVAOMtQLRsWiLmfbi%2FAprendiendo-Con-Eva-proyecto%3Fpage-id%3D1%253A3%26node-id%3D201%253A289%26viewport%3D171%252C49%252C0.03%26scaling%3Dscale-down-width%26starting-point-node-id%3D201%253A289" allowfullscreen></iframe>
                     
                           </b-row>
-                        </b-modal>
                     </div>
                 </div> 
 
@@ -38,12 +37,12 @@
 
                  <div class="box-titulo-modal">
 
-                  <div class="div-inline">
+                  <div class="div-inline  div-img-txt">
                         <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                         <p class="link-port">Prototipo interactivo Mobile</p>
                     </div>
 
-                      <div>
+                      <div class="box_btn">
 
                         <b-button class="b-button" v-b-modal.modal-prototype >Ver más</b-button>
 
@@ -84,12 +83,12 @@
                     <div class="col-sm-12 col-md-8 box-links-port-2">
 
                       <div class="box-titulo-modal">
-                          <div class="div-inline">
+                          <div class="div-inline div-img-txt">
                             <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                               <p class="link-port">Prototipo interactivo en Desktop</p>
                           </div>
                   
-                          <div>
+                          <div class="box_btn">
 
                             <b-button class="b-button" v-b-modal.modal-peachdesk >Ver más</b-button>
 
@@ -109,12 +108,12 @@
                   <br>
                   
                   <div class="box-titulo-modal">
-                        <div class="div-inline">
+                        <div class="div-inline div-img-txt">
                           <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                             <p class="link-port">Prototipo interactivo Mobile</p>
                         </div>
                   
-                        <div>
+                        <div class="box_btn">
 
                             <b-button class="b-button" v-b-modal.modal-peachmobile >Ver más</b-button>
 
@@ -132,12 +131,12 @@
                   <br>
 
                       <div class="box-titulo-modal">
-                        <div class="div-inline">
+                        <div class="div-inline div-img-txt">
                           <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                             <p class="link-port">UI KIT</p>
                         </div>
                   
-                        <div>
+                        <div class="box_btn">
 
                             <b-button class="b-button" v-b-modal.modal-peachui>Ver más</b-button>
 
@@ -183,12 +182,12 @@
 
                   <div class="box-titulo-modal">
 
-                    <div class="div-inline">
+                    <div class="div-inline div-img-txt">
                         <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                         <p class="link-port">Prototipo interactivo Desktop</p>
                     </div>
                     
-                    <div>
+                    <div class="box_btn">
 
                         <b-button class="b-button" v-b-modal.modal-conitodesk >Ver más</b-button>
 
@@ -205,12 +204,12 @@
 
                  <div class="box-titulo-modal">
 
-                  <div class="div-inline">
+                  <div class="div-inline div-img-txt">
                         <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                         <p class="link-port">UI KIT </p>
                     </div>
 
-                      <div>
+                      <div class="box_btn">
 
                         <b-button class="b-button" v-b-modal.modal-conitoui >Ver más</b-button>
 
@@ -250,12 +249,12 @@
                 <div class="col-sm-12 col-md-8 box-links-port-2"> 
 
                     <div class="box-titulo-modal">
-                        <div class="div-inline">
+                        <div class="div-inline div-img-txt">
                             <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                               <p class="link-port">Prototipo interactivo Desktop</p>
                         </div>
                         
-                        <div>
+                        <div class="box_btn">
                             <b-button class="b-button" v-b-modal.modal-cmdesktop >Ver más</b-button>
 
                             <b-modal
@@ -273,12 +272,12 @@
                       <br>
 
                       <div class="box-titulo-modal">
-                        <div class="div-inline">
+                        <div class="div-inline div-img-txt">
                             <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                               <p class="link-port">Prototipo interactivo Tablet</p>
                         </div>
                         
-                        <div>
+                        <div class="box_btn">
                             <b-button class="b-button" v-b-modal.modal-cmtablet >Ver más</b-button>
 
                             <b-modal
@@ -296,12 +295,12 @@
                       <br>
 
                   <div class="box-titulo-modal">
-                        <div class="div-inline">
+                        <div class="div-inline div-img-txt">
                             <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
                             <p class="link-port">Prototipo interactivo Mobile</p>
                         </div>
                         
-                         <div>
+                         <div class="box_btn">
                             <b-button class="b-button" v-b-modal.modal-cmmobile >Ver más</b-button>
 
                             <b-modal

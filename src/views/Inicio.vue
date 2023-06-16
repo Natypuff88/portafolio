@@ -7,7 +7,12 @@
 
             <h1 class="titulo1"> ¡Hola Soy Natalia!</h1>
 
-            <h3 class="skills"> Soy UX Designer y mi super poder es crear plataformas amigables para todos 
+            <h3 class="skills"> Soy UX Designer y mi super poder es crear plataformas amigables para todos.
+              <br>
+            Mi enfoque de diseño se basa en empatizar con las necesidades de las personas y crear experiencias que signifiquen un impacto positivo en sus vidas.
+               <br>
+            Para lograr estas experiencias utilizo distintas herramientas de investigación, además de testear e iterar el producto para que se cumpla este objetivo.
+
             </h3>
 
             <i class="fa fa-heart corazon-dos"></i>
