@@ -40,14 +40,21 @@
 
         <b-row class="box-proyectos m-4" sm="12" md="12" lg="6">
             
-          <p> Soy diseñadora UX/UI con experiencia en la creación de productos digitales además de contar con experiencia administrativa/comercial. Cómo UI mi herramienta favorita es Figma y dar estilos en CSS/SASS y como UX me interesa trabajar en base a la accesibilidad y usabilidad web.
+          <p> Soy diseñadora UX/UI con experiencia en la creación de productos digitales. Estudie en el Bootcamp de Talento Digital para Chile en Awakelab y he trabajado en diversos proyectos como para WOM y Kastor SPA.
           <br>
-          <br>						
-          Entre mis objetivos profesionales quiero seguir perfeccionándome y comprender más la interactividad de componentes motivo por el que estudié VUE.JS y sigo aprendiendo Front-end.
+          <br>		
+          Entre mis objetivos profesionales me interesa seguir perfeccionandome en base a la accesibilidad y usabilidad web además de comprender más la interactividad de componentes motivo por el que estudié VUE.JS y sigo aprendiendo Front-end.	
           <br>
-            <br>
-          <strong> ¡Te invito a revisar mi portafolio!</strong> 
-            </p>
+          <br>
+
+          </p>
+
+            <a href="https://natypuff88.github.io/cvnataliamd/" target="_blank"> 
+            <strong>
+            Revisa mi CV aquí 
+            </strong>
+            </a>
+
           </b-row>
 
     </b-container>
@@ -88,6 +95,7 @@
 
 
 .box-proyectos{
+  margin-top: 24px;
   padding: 40 40px 0 40;
   color: #212529;
 
