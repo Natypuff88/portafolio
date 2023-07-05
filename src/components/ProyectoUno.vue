@@ -35,6 +35,9 @@
 
               <b-carousel-slide  :img-src="require('../assets/img/carousel/mock-up7.png')">   
               </b-carousel-slide>
+
+               <b-carousel-slide  :img-src="require('../assets/img/carousel/mock-up8.png')">   
+              </b-carousel-slide>
             </b-carousel>
         </b-row>
 

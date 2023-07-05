@@ -67,6 +67,79 @@
             </div>
           </b-col>
 
+<!---MyStyle ---->
+              <b-col class="d-flex justify-content-center   align-content-center" sm="12" md="12" lg="12"> 
+
+                <div class="row card-cases"> 
+                  <h3 class="pb-4"> App para aplicación MyStylee</h3>
+           
+
+                    <div class="col-sm-12 col-md-4 box-links-port-1">
+                
+                      <img class="img-fluid img-port" src="../assets/img/MyStyle.jpg">
+                    </div>
+
+                    <div class="col-sm-12 col-md-8 box-links-port-2">
+   
+                  <br>
+                  
+                  <div class="box-titulo-modal">
+                        <div class="div-inline div-img-txt">
+                          <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
+                            <p class="link-port">Prototipo interactivo Mobile</p>
+                        </div>
+                  
+                        <div class="box_btn">
+
+                            <b-button class="b-button" v-b-modal.modal-mystylemobile >Ver más</b-button>
+
+                            <b-modal
+                            id="modal-mystylemobile" size="xl" title="Prototipo interactivo Mobile">
+                            
+                            <b-row align-v="center"> 
+                           <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgyKMjzHIX7flh8tVeUIBZn%2FMY-SYLE-APP%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D0-339%26viewport%3D192%252C168%252C0.08%26t%3DuPSol54Dm04EV0Tc-1%26scaling%3Dscale-down%26starting-point-node-id%3D0%253A1070%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>
+                            </b-row>
+                      
+                            </b-modal>
+                        </div>
+                    </div>
+         
+                  <br>
+
+                      <div class="box-titulo-modal">
+                        <div class="div-inline div-img-txt">
+                          <img src="../assets/img/IMG_SOBRE_MI/FIGMA.svg" height="20px" width="20px"> 
+                            <p class="link-port">UI KIT</p>
+                        </div>
+                  
+                        <div class="box_btn">
+
+                            <b-button class="b-button" v-b-modal.modal-mystyleui>Ver más</b-button>
+
+                            <b-modal
+                            id="modal-mystyleui" size="xl" title="UI KIT MyStyle">
+                            
+                            <b-row align-v="center"> 
+                              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgyKMjzHIX7flh8tVeUIBZn%2FMY-SYLE-APP%3Fpage-id%3D1%253A351%26type%3Ddesign%26node-id%3D1-352%26viewport%3D311%252C930%252C0.38%26t%3DSoDOy1cFHqws1Dhk-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D1%253A352%26mode%3Ddesign" allowfullscreen></iframe>
+                            </b-row>
+                      
+                          </b-modal>
+                      </div>
+                  </div>
+         
+                  <br>
+
+            
+                    
+
+                       
+                  <br>
+                  <br>
+                  <p> Prototipo interactivo utilizando las variables de la nueva actualización de Figma para lograr efecto claro/oscuro</p>
+            
+               </div>    
+            </div> 
+          </b-col>
         
 <!---PEACHGLOW ---->
               <b-col class="d-flex justify-content-center   align-content-center" sm="12" md="12" lg="12"> 
@@ -168,6 +241,9 @@
                </div>    
             </div> 
           </b-col>
+
+        
+
 
 <!---CONITO HELADERÍA ---->
           <b-col class="d-flex justify-content-center align-content-center" sm="12" md="12" lg="12"> 
