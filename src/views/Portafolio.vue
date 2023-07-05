@@ -71,7 +71,7 @@
               <b-col class="d-flex justify-content-center   align-content-center" sm="12" md="12" lg="12"> 
 
                 <div class="row card-cases"> 
-                  <h3 class="pb-4"> App para aplicación MyStylee</h3>
+                  <h3 class="pb-4"> App para aplicación MyStyle</h3>
            
 
                     <div class="col-sm-12 col-md-4 box-links-port-1">
@@ -127,12 +127,7 @@
                       </div>
                   </div>
          
-                  <br>
-
-            
-                    
-
-                       
+                  <br>    
                   <br>
                   <br>
                   <p> Prototipo interactivo utilizando las variables de la nueva actualización de Figma para lograr efecto claro/oscuro</p>
@@ -630,6 +625,12 @@ button.close:hover {
   background-color: #9F6098;
   color: #FAFAFA;
   border: #9F6098 1px solid;
+}
+
+.close{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 </style>
