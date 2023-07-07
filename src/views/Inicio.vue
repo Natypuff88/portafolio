@@ -1,11 +1,23 @@
 <template>
   <div>
     <b-container>
-      <b-row class="d-flex align-content-center"> 
+      <b-row class="d-flex justify-content-center align-content-center" sm="12" md="12" lg="12"> 
 
-        <b-col class="card_inicio" sm="12" md="12" lg="6"> 
+      <b-row class="card_inicio" sm="12" md="12" lg="12"> 
 
-            <h1 class="titulo1"> ¡Hola Soy Natalia!</h1>
+        <b-col class="d-flex justify-content-center m-auto" sm="12" md="12" lg="3" > 
+
+                    <b-img 
+                          rounded="circle" alt="Circle image"
+                          :src="require('../assets/img/imgnataliamd.jpg')"
+
+                          class="fotonaty"
+                          >
+                    </b-img>
+        </b-col>
+
+        <b-col class="p-2" sm="12" md="12" lg="9" > 
+            <h1 class=" titulo1"> ¡Hola Soy Natalia!</h1>
 
             <h3 class="skills"> Soy UX Designer y mi super poder es crear plataformas amigables para todos.
               <br>
@@ -19,12 +31,9 @@
 
         </b-col>
 
-        <b-col class="d-flex justify-content-end"> 
-        <img class="naty-coneja" src="../assets/img/fotoinstanatyPNG.png">
-
-        </b-col>
+   
       </b-row>  
-
+</b-row>
     </b-container>
     
     <ProyectoUno/>
@@ -64,11 +73,11 @@ import Footer from '../components/Footer.vue'
 <style lang="scss" scoped>
 
 .card_inicio{
-    margin-top: 6.25rem;
-    margin-left: 6.25rem;
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
     padding: 1.875rem;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: auto;
     background: #FAFAFA;
     box-shadow: 0px 5px 20px #F5AAB6;
     border-radius: 30px;
@@ -86,6 +95,10 @@ import Footer from '../components/Footer.vue'
   border: 0px !important;
 }
 
+.fotonaty{
+  max-width: 90%;
+  height: auto;
+}
 
 .img-naty{
   width: 100px;
@@ -127,6 +140,5 @@ import Footer from '../components/Footer.vue'
     font-size: 15px;
     margin: 10px;
 }
-
 
 </style>
