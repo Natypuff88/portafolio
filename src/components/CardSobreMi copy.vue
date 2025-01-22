@@ -7,7 +7,9 @@
                     <div class="card_sobre_mi m-auto"> 
                             <h3 class="text-center skills_title"> Soft skills </h3>
 
-                            <p class="skills_content text-center"> Me caracterizo por ser constante amable y ordenada, se trabajar bien en equipo y comunicarme con distintas áreas en una compañía.</p>
+                            <p class="skills_content text-center"> Me destaco por mi constancia, amabilidad y organización. Poseo habilidades para trabajar en equipo y comunicarme eficazmente con distintas áreas dentro de una compañía.
+
+</p>
 
                     </div>
                 
@@ -21,7 +23,9 @@
                         <b-row>
                         <b-col col="6"> 
                            <p class="skills_content "> 
-                          Me gusta trabajar  con el código aunque a veces sea complejo ¡No hay que rendirse! :D
+                         Disfruto trabajar con código, incluso cuando resulta complejo. ¡La clave está en no rendirse! :D
+
+
                             </p>
                             </b-col>
 
@@ -41,7 +45,9 @@
                                 <b-row>
                                     <b-col col="6"> 
                                         <p class="skills_content text-left"> 
-                       Mis pasatiempos son dibujar, coleccionar mangas y  jugar en mi Nintendo Switch
+                       Entre mis pasatiempos se encuentran dibujar, coleccionar mangas y disfrutar de videojuegos en mi Nintendo Switch.
+
+
                                         </p>
                                     </b-col>
 
@@ -81,7 +87,7 @@ html{
     width: 20rem;
     height: 9.375rem;
     background: #fafafa;
-    box-shadow: 0 5px 20px #f5aab6;
+    box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
     border-radius: 30px;
     padding: 0.625rem;
 }

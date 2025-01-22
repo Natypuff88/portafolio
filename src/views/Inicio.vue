@@ -19,8 +19,8 @@
         <b-col class="p-2" sm="12" md="12" lg="9" > 
             <h1 class=" titulo1"> ¡Hola Soy Natalia!</h1>
 
-            <h3 class="skills"> Soy UX Designer y mi super poder es crear plataformas amigables para todos.
-              <br>
+            <h3 class="skills"> Soy UX Designer y mi super poder es crear y mantener plataformas amigables para todos.
+              <br> <br>
             Mi enfoque de diseño se basa en empatizar con las necesidades de las personas y crear experiencias que signifiquen un impacto positivo en sus vidas.
                <br>
             Para lograr estas experiencias utilizo distintas herramientas de investigación, además de testear e iterar el producto para que se cumpla este objetivo.
@@ -79,7 +79,7 @@ import Footer from '../components/Footer.vue'
     width: 80%;
     height: auto;
     background: #FAFAFA;
-    box-shadow: 0px 5px 20px #F5AAB6;
+    box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
     border-radius: 30px;
 }
 
@@ -91,7 +91,7 @@ import Footer from '../components/Footer.vue'
 
 .popover{
   background-color: #fafafa!important;
-  box-shadow: 0px 5px 20px #F5AAB6!important;
+  box-shadow: 0px 5px 20px rgba(184, 184, 126, 1)!important;
   border: 0px !important;
 }
 

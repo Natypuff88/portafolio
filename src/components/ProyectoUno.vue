@@ -46,7 +46,8 @@
           <p> Soy diseñadora UX/UI con experiencia en la creación de productos digitales. Estudie en el Bootcamp de Talento Digital para Chile en Awakelab y he trabajado en diversos proyectos como para WOM y Kastor SPA.
           <br>
           <br>		
-          Entre mis objetivos profesionales me interesa seguir perfeccionandome en base a la accesibilidad y usabilidad web además de comprender más la interactividad de componentes motivo por el que estudié VUE.JS y sigo aprendiendo Front-end.	
+          Actualmente, uno de mis objetivos profesionales es profundizar en el uso de la inteligencia artificial (IA) para automatizar tareas en UX y mejorar la eficiencia en la vida cotidiana.
+
           <br>
           <br>
 

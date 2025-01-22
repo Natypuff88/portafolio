@@ -76,7 +76,7 @@ import '../assets/components/Navbar.scss';
 
 .currentUrlHover {
     font-weight: 500;
-    color: #E67D8D!important;
+    color: #9AAC76!important;
 }
 
 
@@ -87,7 +87,7 @@ import '../assets/components/Navbar.scss';
 
 
 .nav-link:active {
-    color: #F4AAB6 !important;
+    color: #9AAC76 !important;
     font-weight: 500;
 }
 

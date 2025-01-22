@@ -464,7 +464,7 @@
 
 <!---BLOG NATYPUFF ---->
 
-          <b-col class="d-flex justify-content-center align-content-center" sm="12" md="12" lg="12"> 
+    <!---      <b-col class="d-flex justify-content-center align-content-center" sm="12" md="12" lg="12"> 
 
             <div class="card-cases row"> 
                <h3 class="pb-4"> Blog Natypuff88</h3>
@@ -488,7 +488,7 @@
                 </div>
 
             </div>
-          </b-col>
+          </b-col> F ---->
 
             
         </b-row>
@@ -510,7 +510,7 @@ export default {
     margin-bottom: 6.25rem;
     padding: 1.875rem;
     background: #FAFAFA;
-    box-shadow: 0px 5px 20px #F5AAB6;
+    box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
     border-radius: 30px;
 }
 
@@ -538,7 +538,7 @@ export default {
 
 .link-port{
   display:  inline;
-  color: #E67D8D;
+  color: #1B0907;
   font-weight: 700;
   margin-bottom: 0px;
   margin-left: 10px;
@@ -583,48 +583,48 @@ a:link, a:visited, a:active a:hover{
 }
 
 .b-button{
-  background-color: #F5AAB6 !important;
+  background-color: #9AAC76 !important;
   color: #FAFAFA !important;
-  border: #F5AAB6 !important;
+  border: #9AAC76 !important;
 }
 
 .b-button:hover{
-  background-color: #9F6098 !important;
+  background-color: #D9D9B0 !important;
   color: #FAFAFA !important;
-  border: #F5AAB6 !important;
+  border: #D9D9B0 !important;
 
 }
 
 button.btn.btn-primary {
-  background-color: #F5AAB6;
+  background-color: #9AAC76;
   color: #FAFAFA;
-  border: #F5AAB6;
+  border: #9AAC76;
 
 }
 
 button.btn.btn-primary:hover {
-  background-color: #9F6098;
+  background-color: #D9D9B0;
   color: #FAFAFA;
-  border: #9F6098;
+  border: #D9D9B0;
 
 }
 
 button.btn.btn-secondary {
   background-color: #FAFAFA;
-  color: #F5AAB6;
-  border: #F5AAB6;
+  color: #9AAC76;
+  border: #9AAC76;
 
 }
 
 button.close {
-  background-color: #F5AAB6;
+  background-color: #9AAC76;
   color: #FAFAFA;
-  border: #F5AAB6 1px solid;
+  border: #9AAC76 1px solid;
 }
 button.close:hover {
-  background-color: #9F6098;
+  background-color: #D9D9B0;
   color: #FAFAFA;
-  border: #9F6098 1px solid;
+  border: #D9D9B0 1px solid;
 }
 
 .close{

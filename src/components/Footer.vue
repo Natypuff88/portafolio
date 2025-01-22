@@ -15,6 +15,7 @@
 
                 </div>
 
+<!-- 
                 <a class="text-center mt-2" href="https://natypuff88.com/wp/" target="_blank"> 
 
                 <i class="fa fa-heart corazon"> </i>
@@ -23,7 +24,7 @@
 
                 <i class="fa fa-heart corazon"> </i>             
                 
-                </a>
+                </a> --->
         
 
         </b-row>
@@ -48,7 +49,7 @@ export default {
     display: flex;
     width: 100vw;
     height: 15rem;
-    background-color: #caf1e6;
+    background-color: #FDFDE4;
 }
 
 .icono{
@@ -71,7 +72,7 @@ a{
 
 .blog:hover{
     font-weight: 700;
-    color: #F4AAB6;;
+    color: #9AAC76;;
 }
 
 .corazon{
@@ -84,7 +85,7 @@ a{
 }
 
 .redes i:hover{
- color: #F4AAB6;
+ color: #9AAC76;
  font-size: 45px;
 }
 

@@ -128,7 +128,7 @@
     width: 184px;
     height: 184px;
     background: #FAFAFA;
-    box-shadow: 0px 5px 20px #F5AAB6;
+    box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
     border-radius: 30px;
     }
     
@@ -138,7 +138,7 @@
         width: 184px;
         height: 184px;
         background: #FAFAFA;
-        box-shadow: 0px 5px 20px #F5AAB6;
+        box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
         border-radius: 30px;
         margin-bottom: 20px;
         }
@@ -149,7 +149,7 @@
     width: 300px;
     height: 100px;
     background: #FAFAFA;
-    box-shadow: 0px 5px 20px #F5AAB6;
+    box-shadow: 0px 5px 20px rgba(184, 184, 126, 1);
     @media(min-width: 0px) and (max-width:767px)   // celular
     {width: 250px;
     height: 100px; }
